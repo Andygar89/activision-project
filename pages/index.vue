@@ -50,6 +50,9 @@ export default {
 @media (max-width: 640px) {
   .hero {
     background: url('assets/images/hero_mobile.jpg');
+    background-position: center;
+    background-size: cover;
+    height: cover;
   }
 }
 </style>
